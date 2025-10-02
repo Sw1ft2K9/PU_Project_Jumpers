@@ -2,6 +2,8 @@ using System.Collections;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
+using static UnityEngine.GraphicsBuffer;
 
 public class PlatformControllerAdv : MonoBehaviour
 {
@@ -57,11 +59,30 @@ public class PlatformControllerAdv : MonoBehaviour
     [SerializeField] float dashingTime = 0.2f;
     [SerializeField] float dashingCooldown = 1f;
     [SerializeField] TrailRenderer trail;
+    public GameObject target;
+    void Update()
+    {
+        //void Update()
+        {
+            transform.position = new Vector4(target.transform.position.x, target.transform.position.y, -10);
+        }
+        //if (Input.GetKeyDown(KeyCode.Q))
+        // {
+        // SceneManager.LoadScene("test");
+        //}
+        // if (Input.GetKeyDown(KeyCode.E))
+        //{
+        //  SceneManager.LoadScene("Platform");
+        // }
+    }
 
     private void Awake()
     {
         playerInput = new PlayerInput();
         
+        //DontDestroyOnLoad(gameObject);
+        
+
     }
     private void Start()
     {
@@ -291,5 +312,6 @@ public class PlatformControllerAdv : MonoBehaviour
         tempScale.x *= -1;
         transform.localScale = tempScale;
     }
+
 
 }
