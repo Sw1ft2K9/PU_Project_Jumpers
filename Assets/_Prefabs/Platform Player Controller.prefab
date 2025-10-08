@@ -468,12 +468,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Red: {fileID: 2441289784313454021, guid: 7f50ec57b9da1a840ba033520eee7de4, type: 3}
-  GreenTransparent: {fileID: 488105130223308152, guid: d4f1d8083ec569648982a8eba9d854d6, type: 3}
   Green: {fileID: 505024400822189931, guid: c086e42afb64ce746b62f0e08c90c263, type: 3}
-  RedTransparent: {fileID: 3206146724321034206, guid: 6373e2c74d420034f8d4fd0e1ad7ca82, type: 3}
-  level1: 1
-  level2: 1
-  level3: 0
+  Blue: {fileID: 7606394286701332759, guid: 6e6f1a88207279c40b0af31025b20db9, type: 3}
+  RedLevel: {fileID: 0}
+  GreenLevel: {fileID: 0}
+  BlueLevel: {fileID: 0}
 --- !u!1 &6780107219219185084
 GameObject:
   m_ObjectHideFlags: 0
