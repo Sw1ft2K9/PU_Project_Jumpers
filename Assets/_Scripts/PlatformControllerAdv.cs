@@ -62,10 +62,9 @@ public class PlatformControllerAdv : MonoBehaviour
     public GameObject target;
     void Update()
     {
-        //void Update()
-        {
-            transform.position = new Vector4(target.transform.position.x, target.transform.position.y, -10);
-        }
+        
+        //    transform.position = new Vector4(target.transform.position.x, target.transform.position.y, -10);
+        
         //if (Input.GetKeyDown(KeyCode.Q))
         // {
         // SceneManager.LoadScene("test");

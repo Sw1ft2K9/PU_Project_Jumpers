@@ -467,9 +467,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0abeb720eb942c4c934668ca1718762, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Red: {fileID: 2441289784313454021, guid: 7f50ec57b9da1a840ba033520eee7de4, type: 3}
-  Green: {fileID: 505024400822189931, guid: c086e42afb64ce746b62f0e08c90c263, type: 3}
-  Blue: {fileID: 7606394286701332759, guid: 6e6f1a88207279c40b0af31025b20db9, type: 3}
+  Red: {fileID: 4807541272577544958, guid: e8991943f752d2b4ba8db1030c8a78b6, type: 3}
+  Green: {fileID: 3374884212676734437, guid: a01eac17d8baa3840886ef320870484f, type: 3}
+  Blue: {fileID: 4706027800834162760, guid: ebf6cbbd69e10804fab03e221ec6812c, type: 3}
   RedLevel: {fileID: 0}
   GreenLevel: {fileID: 0}
   BlueLevel: {fileID: 0}
