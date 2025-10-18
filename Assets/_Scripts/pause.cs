@@ -1,23 +1,40 @@
 using UnityEngine;
 
-public class pause : MonoBehaviour
+public class Pause : MonoBehaviour
 {
     public KeyCode pauseKey = KeyCode.Escape;
-    public GameObject Pausemenu;
-    bool IsPaused = false;
-    public GameObject target;
+    public GameObject pauseMenu;
+    private bool isPaused = false;
+    public switchLevel switchLevel;
+    public UI UI;
     
-    // Update is called once per frame
+    
     void Update()
     {
         if (Input.GetKeyDown(pauseKey))
         {
-            PauseSystem();
+            if (isPaused)
+                ResumeSystem();
+            else
+                PauseSystem();
         }
     }
+
     public void PauseSystem()
     {
+        pauseMenu.SetActive(true);
+        Time.timeScale = 0f;
+        isPaused = true;
+        switchLevel.enabled = false;
+        UI.enabled = false;
+    }
 
-
+    public void ResumeSystem()
+    {
+        pauseMenu.SetActive(false);
+        Time.timeScale = 1f;
+        isPaused = false;
+        switchLevel.enabled = true;
+        UI.enabled = true;
     }
 }

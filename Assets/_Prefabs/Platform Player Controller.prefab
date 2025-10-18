@@ -47,7 +47,6 @@ GameObject:
   - component: {fileID: 2906797907530294629}
   - component: {fileID: 8213964368687558424}
   - component: {fileID: -8003367458382180524}
-  - component: {fileID: -443123535768912431}
   m_Layer: 0
   m_Name: Platform Player Controller
   m_TagString: Player
@@ -455,24 +454,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deadzone: -15
   start: {fileID: 0}
---- !u!114 &-443123535768912431
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6272085369710371244}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b0abeb720eb942c4c934668ca1718762, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Red: {fileID: 4807541272577544958, guid: e8991943f752d2b4ba8db1030c8a78b6, type: 3}
-  Green: {fileID: 3374884212676734437, guid: a01eac17d8baa3840886ef320870484f, type: 3}
-  Blue: {fileID: 4706027800834162760, guid: ebf6cbbd69e10804fab03e221ec6812c, type: 3}
-  RedLevel: {fileID: 0}
-  GreenLevel: {fileID: 0}
-  BlueLevel: {fileID: 0}
 --- !u!1 &6780107219219185084
 GameObject:
   m_ObjectHideFlags: 0

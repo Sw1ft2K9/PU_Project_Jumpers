@@ -8,9 +8,9 @@ public class switchLevel : MonoBehaviour
     public GameObject RedLevel;
     public GameObject GreenLevel;
     public GameObject BlueLevel;
-    bool level1;
-    bool level2;
-    bool level3;
+    public bool level1;
+    public bool level2;
+    public bool level3;
     
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
