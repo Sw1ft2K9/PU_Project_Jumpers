@@ -267,8 +267,37 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6272085369710371244, guid: c88a7e87a8b655a4a9c23ecff704442d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 364112668}
   m_SourcePrefab: {fileID: 100100000, guid: c88a7e87a8b655a4a9c23ecff704442d, type: 3}
+--- !u!1 &364112667 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6272085369710371244, guid: c88a7e87a8b655a4a9c23ecff704442d, type: 3}
+  m_PrefabInstance: {fileID: 364112666}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &364112668
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 364112667}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0abeb720eb942c4c934668ca1718762, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Red: {fileID: 8238365855799522713, guid: 7f75f311592150f44a436aa15e5469a1, type: 3}
+  Green: {fileID: 7850566500113755313, guid: d7160071385354c4587698b4a9a9fe5e, type: 3}
+  Blue: {fileID: 4706027800834162760, guid: ebf6cbbd69e10804fab03e221ec6812c, type: 3}
+  RedLevel: {fileID: 0}
+  GreenLevel: {fileID: 0}
+  BlueLevel: {fileID: 0}
+  level1: 0
+  level2: 0
+  level3: 0
 --- !u!1 &402168151
 GameObject:
   m_ObjectHideFlags: 0

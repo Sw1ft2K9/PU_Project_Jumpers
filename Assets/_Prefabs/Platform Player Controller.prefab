@@ -454,6 +454,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deadzone: -15
   start: {fileID: 0}
+  deathScript: {fileID: 0}
 --- !u!1 &6780107219219185084
 GameObject:
   m_ObjectHideFlags: 0

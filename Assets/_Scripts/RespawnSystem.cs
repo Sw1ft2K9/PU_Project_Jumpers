@@ -6,6 +6,7 @@ public class RespawnSystem : MonoBehaviour
     Vector3 originalPlayerSpwan;
     Vector3 playerSpwan = Vector3.zero;
     Transform player;
+    public deathScript deathScript;
     private void Awake() {
         if (instance != null) {
             Destroy(this);
@@ -18,6 +19,7 @@ public class RespawnSystem : MonoBehaviour
             player = GameObject.FindGameObjectWithTag("Player").transform;
             originalPlayerSpwan = player.position;
             playerSpwan = originalPlayerSpwan;
+            deathScript.addScore(1);
         }
     }
     public void PlayerDied() {
