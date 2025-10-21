@@ -59,7 +59,7 @@ public class PlatformControllerAdv : MonoBehaviour
     [SerializeField] float dashingTime = 0.2f;
     [SerializeField] float dashingCooldown = 1f;
     [SerializeField] TrailRenderer trail;
-    public GameObject target;
+   // public GameObject target;
     void Update()
     {
         
