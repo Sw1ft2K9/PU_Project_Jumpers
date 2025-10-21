@@ -47,6 +47,7 @@ GameObject:
   - component: {fileID: 2906797907530294629}
   - component: {fileID: 8213964368687558424}
   - component: {fileID: -8003367458382180524}
+  - component: {fileID: 7231534444335420948}
   m_Layer: 0
   m_Name: Platform Player Controller
   m_TagString: Player
@@ -229,7 +230,6 @@ MonoBehaviour:
   dashingTime: 0.2
   dashingCooldown: 1
   trail: {fileID: 8213964368687558424}
-  target: {fileID: 0}
 --- !u!114 &2906797907530294629
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -455,6 +455,27 @@ MonoBehaviour:
   deadzone: -15
   start: {fileID: 0}
   deathScript: {fileID: 0}
+--- !u!114 &7231534444335420948
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6272085369710371244}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0abeb720eb942c4c934668ca1718762, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Red: {fileID: 0}
+  Green: {fileID: 0}
+  Blue: {fileID: 0}
+  RedLevel: {fileID: 0}
+  GreenLevel: {fileID: 0}
+  BlueLevel: {fileID: 0}
+  level1: 0
+  level2: 0
+  level3: 0
 --- !u!1 &6780107219219185084
 GameObject:
   m_ObjectHideFlags: 0
