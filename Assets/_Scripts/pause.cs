@@ -5,7 +5,7 @@ public class Pause : MonoBehaviour
     public KeyCode pauseKey = KeyCode.Escape;
     public GameObject pauseMenu;
     private bool isPaused = false;
-    public switchLevel switchLevel;
+    public switchLevel SwitchLevel;
     public UI UI;
     
     
@@ -25,7 +25,7 @@ public class Pause : MonoBehaviour
         pauseMenu.SetActive(true);
         Time.timeScale = 0f;
         isPaused = true;
-        switchLevel.enabled = false;
+        SwitchLevel.enabled = false;
         UI.enabled = false;
     }
 
@@ -34,7 +34,7 @@ public class Pause : MonoBehaviour
         pauseMenu.SetActive(false);
         Time.timeScale = 1f;
         isPaused = false;
-        switchLevel.enabled = true;
+        SwitchLevel.enabled = true;
         UI.enabled = true;
     }
 }

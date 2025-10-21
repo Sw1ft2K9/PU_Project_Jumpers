@@ -12,16 +12,18 @@ public class switchLevel : MonoBehaviour
     public bool level2;
     public bool level3;
     
-    
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        
         RedLevel = GameObject.FindGameObjectWithTag("level 1");
         GreenLevel = GameObject.FindGameObjectWithTag("level 2");
         BlueLevel = GameObject.FindGameObjectWithTag("level 3");
         level1 = true;
         level2 = false;
         level3 = false;
+        Time.timeScale = 1f;
     }
 
     // Update is called once per frame

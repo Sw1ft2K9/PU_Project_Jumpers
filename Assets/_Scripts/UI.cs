@@ -9,15 +9,18 @@ public class UI : MonoBehaviour
     public Text TextBlue;
     public Text TextGreen;
     public Text TextRed;
+    public switchLevel SwitchLevel;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        
         level1 = true;
         level2 = false;
         level3 = false;
         TextGreen.enabled = true;
         TextRed.enabled = false;
         TextBlue.enabled = false;
+        SwitchLevel.enabled = true;
     }
 
     // Update is called once per frame
