@@ -230,6 +230,7 @@ MonoBehaviour:
   dashingTime: 0.2
   dashingCooldown: 1
   trail: {fileID: 8213964368687558424}
+  target: {fileID: 0}
 --- !u!114 &2906797907530294629
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -453,7 +454,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   deadzone: -15
-  start: {fileID: 0}
+  start: {fileID: 7445425558579060950, guid: c7e091bc9821cd9439ecb1d8f939c1c8, type: 3}
   deathScript: {fileID: 0}
 --- !u!114 &7231534444335420948
 MonoBehaviour:

@@ -1083,6 +1083,7 @@ MonoBehaviour:
   TextBlue: {fileID: 1239873411}
   TextGreen: {fileID: 1191763430}
   TextRed: {fileID: 620182003}
+  SwitchLevel: {fileID: 0}
 --- !u!1 &620182000
 GameObject:
   m_ObjectHideFlags: 0
@@ -1770,37 +1771,8 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 6272085369710371244, guid: c88a7e87a8b655a4a9c23ecff704442d, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1594772363}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c88a7e87a8b655a4a9c23ecff704442d, type: 3}
---- !u!1 &1594772354 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6272085369710371244, guid: c88a7e87a8b655a4a9c23ecff704442d, type: 3}
-  m_PrefabInstance: {fileID: 1380226626}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1594772363
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1594772354}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b0abeb720eb942c4c934668ca1718762, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Red: {fileID: 5486572783744010745, guid: d6af2423736344e46905af92124973ba, type: 3}
-  Green: {fileID: 9113673687461157532, guid: 3fe33368c8223f942b4e4f51e9bba151, type: 3}
-  Blue: {fileID: 8153417714637296987, guid: 8a14a902b96aaba4fad72d3967ed5030, type: 3}
-  RedLevel: {fileID: 0}
-  GreenLevel: {fileID: 0}
-  BlueLevel: {fileID: 0}
-  level1: 0
-  level2: 0
-  level3: 0
 --- !u!1001 &1630717162
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2188,7 +2160,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pauseKey: 27
   pauseMenu: {fileID: 788622537}
-  switchLevel: {fileID: 1594772363}
+  SwitchLevel: {fileID: 0}
   UI: {fileID: 607197640}
 --- !u!1 &1811864217
 GameObject:
